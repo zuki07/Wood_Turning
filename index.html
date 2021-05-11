@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Ultra&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+
+<title>Turning Between Centers</title>
+
+<style>
+ @import url(CSS/outline.css);
+
+#main-container {
+ grid-row-gap: 20px;
+ grid-column-gap: 20px;
+ align-content: center;
+ justify-content: center;
+}
+#main-container a {
+ text-decoration: none;
+}
+@media screen and (max-width: 724px) {
+ #main-container {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(10, auto);
+  grid-template-areas: "one" "two" "three" "four" "five" "six" "seven" "eight" "nine" "ten";
+ }
+}
+@media screen and (min-width: 725px) {
+  #main-container {
+  grid-area: main;
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+  grid-template-columns: repeat(2, auto);
+  grid-template-areas:
+	  "one two"
+	  "three four"
+	  "five six"
+	  "seven eight"
+	  "nine ten";
+ }
+}
+@media screen and (min-width: 1075px) {
+ #main-container {
+  grid-area: main;
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  grid-template-columns: repeat(3, auto);
+  grid-template-areas:
+	    "one two three"
+		"four five six"
+	  	"seven eight nine"
+	  	"ten eleven twelve";
+ }
+}
+@media screen and (min-width: 1400px) {
+ #main-container {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  grid-template-rows: repeat(4,auto);
+  grid-template-areas:
+	"one two three four"
+	"five six seven eight"
+	"nine ten eleven twelve";
+ }
+}
+
+ .one {
+  grid-area: one;
+  border: 3px solid;
+  border-radius: .3em;
+  padding: 10px;
+  background-color: #E4C001;
+  text-align: center;
+  opacity: .9;
+  border-color: #be6813;
+ }
+  .two {
+  grid-area: two;
+  border: 3px solid;
+  border-radius: .3em;
+  padding: 10px;
+  background-color: #e4c001;
+  text-align: center;
+  opacity: .9;
+  border-color: #be6813;
+ }
+ .three {
+  grid-area: three;
+  border: 3px solid;
+  border-radius: .3em;
+  padding: 10px;
+  background-color: #e4c001;
+  text-align: center;
+  opacity: .9;
+  border-color: #be6813;
+ }
+ .four {
+  grid-area: four;
+  border: 3px solid;
+  border-radius: .3em;
+  padding: 10px;
+  background-color: #e4c001;
+  text-align: center;
+  opacity: .9;
+  border-color: #be6813;
+ }
+ .five {
+  grid-area: five;
+  border: 3px solid;
+  border-radius: .3em;
+  padding: 10px;
+  background-color: #e4c001;
+  text-align: center;
+  opacity: .9;
+  border-color: #be6813;
+ }
+ .six {
+  grid-area: six;
+  border: 3px solid;
+  border-radius: .3em;
+  padding: 10px;
+  background-color: #e4c001;
+  text-align: center;
+  opacity: .9;
+  border-color: #be6813;
+ }
+ .seven {
+  grid-area: seven;
+  border: 3px solid;
+  border-radius: .3em;
+  padding: 10px;
+  background-color: #e4c001;
+  text-align: center;
+  opacity: .9;
+  border-color: #be6813;
+ }
+ .eight {
+  grid-area: eight;
+  border: 3px solid;
+  border-radius: .3em;
+  padding: 10px;
+  background-color: #e4c001;
+  text-align: center;
+  opacity: .9;
+  border-color: #be6813;
+ }
+ .nine {
+  grid-area: nine;
+  border: 3px solid;
+  border-radius: .3em;
+  padding: 10px;
+  background-color: #e4c001;
+  text-align: center;
+  opacity: .9;
+  border-color: #be6813;
+ }
+ .ten {
+  grid-area: ten;
+  border: 3px solid;
+  border-radius: .3em;
+  padding: 10px;
+  background-color: #e4c001;
+  text-align: center;
+  opacity: .9;
+  border-color: #be6813;
+ }
+
+p {
+ text-align: center;
+ font-weight: bolder;
+ font-size: 1.5em;
+ font-family: Caveat, serif;
+ letter-spacing: .1em;
+ margin-top: 0px;
+ margin-bottom: 5px;
+ color: black;
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="container">
+
+ <header>
+  <h1>Turning Between Centers</h1>
+   <div id="logoleft">
+   <img src="images/logo/logo.gif" alt="Logo">
+   </div>
+   <div id="logoright">
+   <img src="images/logo/logo.gif" alt="Logo">
+   </div>
+
+ </header>
+
+
+ <nav>
+  <ul>
+   <li><a href="about.html">About</a></li>
+   <li><a href="index.html">Products</a></li>
+   <li><a href="CustomProducts.html">Custom Products</a></li>
+  </ul>
+ </nav>
+
+
+ <div id="main-container">
+  <a href="#"><div class="one"><img src="images/products/big_cigar_bocote.jpg" alt="First Product"><p>Big Cigar Style Pen<br>Bocote wood<br>$35</p></div></a>
+  <a href="#"><div class="two"><img src="images/products/big_cigar_bocote_inlay.jpg" alt="Second Product"><p>Big Cigar Styel Pen<br>Bocote wood with brass inlay<br>$35</p></div> </a>
+  <a href="#"><div class="three"><img src="images/products/big_cigar_cedar.jpg" alt="Three Product"><p>Big Cigar Style Pen<br>Cedar wood<br>$35</p></div> </a>
+  <a href="#"><div class="four"><img src="images/products/big_cigar_ebony.jpg" alt="Four Product"><p>Big Cigar Style Pen<br>Ebony wood<br>$35</p></div></a>
+  <a href="#"><div class="five"><img src="images/products/big_cigar_paduak_inlay.jpg" alt="Five Product"><p>Big Cigar Style Pen<br>Paduak wood with black inlay<br>$35</p></div></a>
+  <a href="#"><div class="six"><img src="images/products/designer_cedar.jpg" alt="Six Product"><p>Designer Style Pen<br>Cedar wood<br>$30</p></div></a>
+  <a href="#"><div class="seven"><img src="images/products/patriot_paduak.jpg" alt="Seven Product"><p>Patriot Twist Pen<br>Paduak wood<br>$65</p></div></a>
+  <a href="#"><div class="eight"><img src="images/products/slimline_cedar.jpg" alt="Eight Product"><p>Slimline Style Pen<br>Cedar wood<br>$20</p></div></a>
+  <a href="#"><div class="nine"><img src="images/products/trimline_cedar.jpg" alt="Nine Product"><p>Trimline Style Pen<br>Cedar wood<br>$25</p></div></a>
+  <a href="#"><div class="ten"><img src="images/products/trimline_cedar.jpg" alt="Ten Product"><p>Trimline Style Pen<br>Cedar wood<br>$25</p></div></a>
+  </div>
+
+
+ <div id="contacts">
+  <h2>Contacts</h2>
+   <ul>
+    <li><a href="mailto:cgibbs6@com.edu">Email</a></li>
+    <li><a href="tel:555-555-4545">Call Us</a></li>
+    <li><a href="Address">Driving Directions</a></li>
+    </ul>
+ </div>
+
+
+ <footer>
+  <p2>All content copyright &copy;2019, Turning Between Centers.</p2>
+ </footer>
+
+</div>
+</body>
+</html>
